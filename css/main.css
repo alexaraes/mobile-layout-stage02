@@ -21,12 +21,25 @@ header {
 	float: left;
 }
 
+.com {
+	color: #87cee8;
+}
+
 .head3 {
 	background: #0070a4;
 	width: 75px;
 	height: 60px;
 	margin-top: -10px;
 	float: right;
+}
+
+.login {
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 }
 
 .top {
@@ -51,14 +64,30 @@ header {
 	padding-bottom: 40px;
 }
 
-.welcome {
-	background: #1d8cbe;
-	border: 10px solid #212934;
+.inner{
+	background: #268dbc;
 	width: 210px;
 	height: 50px;
+	position: relative;
+	top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.border {
+	background: #212934;
+	width: 220px;
+	height: 60px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 210px;
+}
+
+.create {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 10px;
 }
 
 .small {
@@ -71,7 +100,6 @@ header {
 }
 
 .three {
-	background: white;
 	width: 300px;
 	height: 70px;
 	margin-left: auto;
@@ -80,7 +108,7 @@ header {
 }
 
 .icon {
-	background: #616e7f;
+	background: white;
 	width: 50px;
 	height: 60px;
 	margin-top: 10px;
@@ -88,7 +116,6 @@ header {
 }
 
 .whys {
-	background: #616e7f;
 	width: 240px;
 	height: 55px;
 	margin-right: 5px;
@@ -96,9 +123,29 @@ header {
 
 }
 
+.line1 {
+	color: white;
+	font-size: 18px;
+	text-align: left;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.line2 {
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	display: block;
+}
+
 .second {
 	background: #e2edf3;
 	height: 190px;
+	text-align: center;
+	font-size: 28px;
+	word-spacing: 2px;
+	line-height: 200%;
 }
 
 .bottom {
@@ -126,21 +173,26 @@ header {
 }
 
 .thin {
-	background: #c7d2d8;
+	color: #38566c;
+	font-size: 20px;
 	width: 410px;
 	height: 20px;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .block {
-	background: #c7d2d8;
+	color: #38566c;
+	font-size: 14px;
 	width: 410px;
 	height: 50px;
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	line-height: 150%;
 }
 
 .test {
@@ -150,7 +202,7 @@ header {
 
 }
 
-.contact {
+.createsite {
 	background: #1e8cbe;
 	width: 210px;
 	height: 55px;
