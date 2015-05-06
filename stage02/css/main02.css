@@ -82,6 +82,17 @@ header {
 	background: #616e7f;
 	width: 50px;
 	height: 60px;
+	margin-top: 10px;
+	float: left;
+}
+
+.whys {
+	background: #616e7f;
+	width: 240px;
+	height: 55px;
+	margin-right: 5px;
+	float: right;
+
 }
 
 .second {
@@ -98,10 +109,37 @@ header {
 .six {
 	background: white;
 	width: 440px;
-	height: 215px;
+	height: 195px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.square {
+	background: #c7d2d8;
+	width: 65px;
+	height: 65px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thin {
+	background: #c7d2d8;
+	width: 410px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block {
+	background: #c7d2d8;
+	width: 410px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .test {
